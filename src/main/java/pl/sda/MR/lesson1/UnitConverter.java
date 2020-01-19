@@ -29,7 +29,6 @@ public class UnitConverter {
 
     /*Stwórz metody konwertujące kilogramy na funty i odwrotnie.*/
 
-
     public static double kilosToPounds(double kilos) {
         double pounds = 2.20 * kilos;
         System.out.println(kilos + "kg =" + pounds + "lbs");

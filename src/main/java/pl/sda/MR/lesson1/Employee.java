@@ -4,14 +4,19 @@ import java.util.Objects;
 
 public class Employee {
 
-    String name;
-    String peselNumber;
-    int slary;
+    private String name;
+    private String peselNumber;
+    private int slary;
 
     public Employee(String name, String peselNumber, int slary) {
         this.name = name;
         this.peselNumber = peselNumber;
         this.slary = slary;
+    }
+
+
+    public int getSlary() {
+        return slary;
     }
 
     @Override

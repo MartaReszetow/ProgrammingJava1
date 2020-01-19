@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac93bc0-cc33-49f5-a7f4-3acf38bc8aab" name="Default Changelist" comment="initiaal commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/wordsToSplit" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/AgeValidator.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/Factorial.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/GreatestCommonDivisor.class" afterDir="false" />
@@ -10,8 +12,6 @@
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/StackImp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/StackInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,25 +28,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="282">
+              <caret line="35" column="94" lean-forward="true" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding>
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,6 +87,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AppSecondMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnaliser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/wordsToSplit" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java" />
       </list>
     </option>
   </component>
@@ -145,6 +149,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lesson1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="programowanieJava1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanieJava1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PensionAnalyzerApp">
+  <component name="RunManager" selected="Application.TextAnalyser">
     <configuration name="AppSecondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.MR.lesson1.AppSecondMain" />
       <module name="programowanieJava1" />
@@ -211,8 +222,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextAnalyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.MR.lesson1.TextAnalyser" />
+      <module name="programowanieJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.MR.lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextAnalyser" />
         <item itemvalue="Application.PensionAnalyzerApp" />
         <item itemvalue="Application.AppSecondMain" />
         <item itemvalue="Application.MainApp" />
@@ -265,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579437543096</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initiaal commit">
+      <created>1579440751124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579440751124</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -295,8 +327,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4986577" visible="true" weight="0.43575418" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39385474" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4986577" weight="0.21368715" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.27793297" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32960895" />
@@ -319,7 +351,8 @@
     <MESSAGE value="initial commit2" />
     <MESSAGE value="Linked list and Stack excercises" />
     <MESSAGE value="working on Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on Collections" />
+    <MESSAGE value="initiaal commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initiaal commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -447,10 +480,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="238">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wordsToSplit">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="35" column="94" lean-forward="true" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
         </state>
       </provider>

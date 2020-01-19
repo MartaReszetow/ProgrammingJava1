@@ -1,0 +1,14 @@
+max_Finder
+if currentValue>maxValue
+    currentValue=maxValue
+    i++
+
+check_if_even
+if numbers are even
+    return true
+else return false
+
+positive_number_summer
+
+if number_postive
+sum = sum + number[i]

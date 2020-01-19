@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cac93bc0-cc33-49f5-a7f4-3acf38bc8aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cac93bc0-cc33-49f5-a7f4-3acf38bc8aab" name="Default Changelist" comment="initiaal commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/AgeValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/Factorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/GreatestCommonDivisor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/PseudocodeExerciseImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/StackImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/StackInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/UnitConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/UnitConverter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,20 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="254">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackImp.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -72,7 +81,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Factorial.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/myNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/myLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -84,8 +98,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-318" />
-    <option name="y" value="5" />
+    <option name="x" value="-108" />
+    <option name="y" value="7" />
     <option name="width" value="1295" />
     <option name="height" value="1050" />
   </component>
@@ -142,7 +156,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579421506135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit2">
+      <created>1579421582149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579421582149</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit2">
+      <created>1579421617645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579421617645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -208,13 +236,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49791667" visible="true" weight="0.39127517" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49791667" visible="true" weight="0.18657719" />
       <window_info id="Structure" order="6" sideWeight="0.50208336" side_tool="true" weight="0.24966443" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -223,8 +252,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4986577" weight="0.43575418" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39944133" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4986577" visible="true" weight="0.43575418" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39385474" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32960895" />
@@ -244,7 +273,8 @@
       <path value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1" />
     </ignored-roots>
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="initial commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -314,24 +344,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>

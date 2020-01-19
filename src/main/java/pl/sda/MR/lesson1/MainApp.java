@@ -31,26 +31,41 @@ public class MainApp {
 
         //_______silnia=Factorial_______
 
- //       System.out.println("silnia: " + Factorial.calculateFactorial(12));
+        //       System.out.println("silnia: " + Factorial.calculateFactorial(12));
 
-        String first = "Hi, I'm first!";
-        String second = "Hi, I'm second!";
-        String third = "Hi, I'm third!";
-        StackImp stack = new StackImp();
+//        String first = "Hi, I'm first!";
+//        String second = "Hi, I'm second!";
+//        String third = "Hi, I'm third!";
+//        StackImp stack = new StackImp();
+//
+//        stack.push(first);
+//        stack.push(second);
+//        stack.push(third);
+//
+//        Object peekResult = stack.peek();
+//        System.out.println((String) peekResult);
+//
+//        Object popResult = stack.pop();
+//        Object popResultTwo = stack.pop();
+//
+//        System.out.println((String)popResult);
+//        System.out.println((String)popResultTwo);
+//
+//        // + dodać warunek że jeżeli indeks wynosi 0 to zwraca nulla
 
-        stack.push(first);
-        stack.push(second);
-        stack.push(third);
 
-        Object peekResult = stack.peek();
-        System.out.println((String) peekResult);
+        //_______node-LinkedList_______________
 
-        Object popResult = stack.pop();
-        Object popResultTwo = stack.pop();
+        MyLinkedList list = new MyLinkedList();
+        list.add(20);
+        list.add(11);
+        list.add(12);
+        list.add(13);
+        list.add(14);
+        list.add(15);
+        list.add(16);
+        list.add(17);
 
-        System.out.println((String)popResult);
-        System.out.println((String)popResultTwo);
-
-        // + dodać warunek że jeżeli indeks wynosi 0 to zwraca nulla
+       list.printAll();
     }
 }

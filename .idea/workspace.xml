@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac93bc0-cc33-49f5-a7f4-3acf38bc8aab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programowanieJava1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/UnitConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/UnitConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/UnitConverter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="413">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -192,6 +187,14 @@
       <option name="presentableId" value="Default" />
       <updated>1578819414945</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1579421506135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579421506135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -240,6 +243,8 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1" />
     </ignored-roots>
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -311,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="413">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
         </state>
       </provider>
     </entry>

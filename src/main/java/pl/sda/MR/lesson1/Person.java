@@ -31,6 +31,16 @@ public class Person {
     public LocalDate getDateOfBirth() {
         return dateOfBirth;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", peselNumber='" + peselNumber + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                '}';
+    }
 }
 
 

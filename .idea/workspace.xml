@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac93bc0-cc33-49f5-a7f4-3acf38bc8aab" name="Default Changelist" comment="initiaal commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AppSecondMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Employee.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/AgeValidator.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/Factorial.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/GreatestCommonDivisor.class" afterDir="false" />
@@ -14,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/StackInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,29 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AppSecondMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +58,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/UnitConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AgeValidator.java" />
         <option value="$PROJECT_DIR$/pseudocodeTask.txt" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PseudocodeExerciseImpl.java" />
@@ -85,8 +69,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/myNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/myLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AppSecondMain.java" />
       </list>
     </option>
   </component>
@@ -103,7 +90,9 @@
     <option name="width" value="1295" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -170,7 +159,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppSecondMain">
+    <configuration name="AppSecondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.MR.lesson1.AppSecondMain" />
+      <module name="programowanieJava1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.MR.lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.MR.lesson1.MainApp" />
       <module name="programowanieJava1" />
@@ -186,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppSecondMain" />
         <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
@@ -222,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579421617645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Linked list and Stack excercises">
+      <created>1579430779947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579430779947</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -274,7 +284,8 @@
     </ignored-roots>
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit2" />
+    <MESSAGE value="Linked list and Stack excercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list and Stack excercises" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -291,35 +302,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/UnitConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -330,9 +323,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/GreatestCommonDivisor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="345">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
@@ -351,31 +351,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackImp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/UnitConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="339">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/MyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/StackImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AppSecondMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

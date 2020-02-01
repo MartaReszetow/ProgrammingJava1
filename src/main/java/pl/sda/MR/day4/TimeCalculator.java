@@ -1,6 +1,8 @@
 package pl.sda.MR.day4;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
 
 //Stwórz klasę TimeCalculator. Stwórz w niej metodę daysToChristmasEve() wyświetlają informację w konsoli z komunikatem:
 // "It's just [ilość dni]to Christmas Eve!". Jeżeli pozostało mniej jak 60 dni dodaj w nowej linii "Time to buy gifts".
@@ -33,11 +35,37 @@ public class TimeCalculator {
         }
     }
 
-
-
     public static void daysToChristmasEveInfo() {
         LocalDate today = LocalDate.now();
         daysToChristmasEve(today);
     }
 
+
+    // Stwórz w TimeCalculator metodę minutesToEndOfClass().
+    // Jej celem będzie wydrukowanie wiadomości "There is [ilość minut] minutes left to the end of today class".
+    // Postaraj się zainspirować poprzednim zadaniem. Użyj jednak tym razem klasy LocalTime.
+    // Następnie dodaj pętlę do while która będzie działała dopóki wartość ta nie będzie wynosić 0, dodaj też w tej pętli
+    // Thread.sleep(5000) aby obliczenia i drukowanie były co 5 sekund.
+
+
+    public static void minutesToEndOfClass() throws InterruptedException {
+        long timeToEndOfClass;
+        LocalTime endOfClass = LocalTime.of(16, 00);
+        do {
+            LocalTime presentTime = LocalTime.now();
+            timeToEndOfClass = ChronoUnit.MINUTES.between(presentTime, endOfClass);
+            System.out.println("There is " + timeToEndOfClass + " minutes left to the end of today class");
+            Thread.sleep(60000);
+        }
+        while (timeToEndOfClass >= 0);
+    }
+
+
+
+
+
+
 }
+
+
+

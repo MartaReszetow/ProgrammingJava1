@@ -23,7 +23,6 @@ public class ProgrammerMain {
 // Przetwórz wszystkich programistów na liście dzieląc ich na żywych i nieżywych.
 //Wydrukuj wyniki z obu setów. Kogo dopadł koronawirus?
 
-
         List<Programmer> listOfProgrammers = new ArrayList<>();
         listOfProgrammers.add(new Programmer(100001, "Jan", "Kowalski", Gender.MEN));
         listOfProgrammers.add(new Programmer(100002, "Aleksander", "Lis", Gender.WOMEN));
@@ -34,8 +33,7 @@ public class ProgrammerMain {
         listOfProgrammers.add(new Programmer(100007, "Stanislaw", "Dawidowski", Gender.MEN));
         listOfProgrammers.add(new Programmer(100008, "Dzban", "Lisewski", Gender.OTHER));
 
-
-        LifeSimulator.Simulate(listOfProgrammers,5);
+        LifeSimulator.Simulate(listOfProgrammers,10);
 
     }
 }

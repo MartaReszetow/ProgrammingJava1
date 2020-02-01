@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac93bc0-cc33-49f5-a7f4-3acf38bc8aab" name="Default Changelist" comment="initiaal commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/zadDom/ATM.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/AgeValidator.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/Factorial.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/GreatestCommonDivisor.class" afterDir="false" />
@@ -11,6 +10,8 @@
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/StackImp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/StackInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/TimeCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/TimeCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/sda/MR/lesson1/MainApp.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,36 +28,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/AppMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/zadDom/ATM.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/TimeCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="294">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -99,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/wordsToSplit" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/zadDom/ATM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/AppMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/TimeCalculator.java" />
       </list>
     </option>
   </component>
@@ -123,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +150,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="MR" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programowanieJava1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanieJava1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MR" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programowanieJava1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanieJava1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MR" type="462c0819:PsiDirectoryNode" />
               <item name="zadDom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,7 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -200,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ATM">
+  <component name="RunManager" selected="Application.AppMain">
     <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.MR.zadDom.ATM" />
       <module name="programowanieJava1" />
@@ -214,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppSecondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.MR.lesson1.AppSecondMain" />
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.MR.day4.AppMain" />
       <module name="programowanieJava1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.MR.lesson1.*" />
+          <option name="PATTERN" value="pl.sda.MR.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,8 +231,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.MR.lesson1.MainApp" />
+    <configuration name="AppSecondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.MR.lesson1.AppSecondMain" />
       <module name="programowanieJava1" />
       <extension name="coverage">
         <pattern>
@@ -268,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.ATM" />
         <item itemvalue="Application.TextAnalyser" />
         <item itemvalue="Application.PensionAnalyzerApp" />
         <item itemvalue="Application.AppSecondMain" />
-        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +340,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579445937260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initiaal commit">
+      <created>1580239537846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580239537846</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initiaal commit">
+      <created>1580239625165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580239625165</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Christmas Calculator added">
+      <created>1580549667575</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580549667575</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -350,13 +375,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Learn" order="3" />
+      <window_info id="Learn" order="3" weight="0.3295302" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49791667" visible="true" weight="0.18926175" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49791667" visible="true" weight="0.19463088" />
       <window_info id="Structure" order="6" sideWeight="0.50208336" side_tool="true" weight="0.24966443" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -365,7 +391,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4986577" weight="0.21368715" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4986577" visible="true" weight="0.37709498" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.27793297" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -389,9 +415,10 @@
     <MESSAGE value="initial commit2" />
     <MESSAGE value="Linked list and Stack excercises" />
     <MESSAGE value="working on Collections" />
-    <MESSAGE value="initiaal commit" />
     <MESSAGE value="adding text analyser" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding text analyser" />
+    <MESSAGE value="initiaal commit" />
+    <MESSAGE value="Christmas Calculator added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Christmas Calculator added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -419,13 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AgeValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -520,18 +540,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/wordsToSplit">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/PensionAnalyzerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -544,8 +552,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/zadDom/ATM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="459">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/TextAnalyser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/lesson1/AgeValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/AppMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/MR/day4/TimeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
         </state>
       </provider>
     </entry>

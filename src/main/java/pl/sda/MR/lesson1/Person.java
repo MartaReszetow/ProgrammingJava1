@@ -3,7 +3,7 @@ package pl.sda.MR.lesson1;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class Person {
+public class Person implements Comparable<Person>{
     private String firstName;
     private String lastName;
     private String peselNumber;
@@ -40,6 +40,12 @@ public class Person {
                 ", peselNumber='" + peselNumber + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Person otherPerson) {
+
+        return this.dateOfBirth.compareTo(otherPerson.dateOfBirth);
     }
 }
 

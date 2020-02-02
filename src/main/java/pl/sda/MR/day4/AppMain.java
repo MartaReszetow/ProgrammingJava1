@@ -1,6 +1,7 @@
 package pl.sda.MR.day4;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 
 public class AppMain {
     public static void main(String[] args) throws InterruptedException {
@@ -16,7 +17,7 @@ public class AppMain {
         // __________________MYQUEUE___________________
         // tak strworzyliśmy obiekt, którego typu wcześneij nie deklarowaiśmy
 
-        MyQueue<String> myStringQueue = new MyQueue<>();
+     /*   MyQueue<String> myStringQueue = new MyQueue<>();
 
         myStringQueue.offer("Hello world");
         myStringQueue.offer("lalalla1");
@@ -28,7 +29,13 @@ public class AppMain {
 
 
         MyQueue<Integer> myIntegerQueue = new MyQueue<>();
-        myIntegerQueue.offer(256);
+        myIntegerQueue.offer(256);*/
+
+        // _____________BUBBLE SORT_____________
+
+        int[] table = {0, 25, 8, 6, 5,-2,9,0};
+        BubbleSort.sort(table);
+        System.out.println(Arrays.toString(table));
 
     }
 }

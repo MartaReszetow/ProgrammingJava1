@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CatDogYears {
     public static void main(String[] args) {
-        int[] result = humanYearsCatYearsDogYears(4);
+        int[] result = humanYearsCatYearsDogYears(27);
         System.out.println("Human years, cat years, dog years: " + Arrays.toString(result));
     }
 
